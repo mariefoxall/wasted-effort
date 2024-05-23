@@ -1,0 +1,28 @@
+.booking-dialog {
+  height: 70%;
+  max-width: 100%;
+}
+
+.booking-button {
+  margin-top: 1.5em;
+  border-radius: 8px;
+  border: 1px solid #ff7758;
+  padding: 0.6em;
+  font-size: 1.8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgba(204, 204, 255, 1);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  text-align: left;
+}
+
+.booking-button:hover {
+  background-color: #ff7758;
+  color: #e6e6ff;
+  border: 1px solid #ccccff;
+}
+
+.booking-dialog-content {
+  height: 100%;
+}

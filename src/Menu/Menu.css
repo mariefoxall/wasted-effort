@@ -1,0 +1,46 @@
+.nav-menu {
+  position: relative;
+  cursor: pointer;
+  padding: 0.6em;
+}
+
+.nav-menu-links {
+  position: absolute;
+  top: 90%;
+  right: 6px;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: 0fr;
+  transition: 0.3s grid ease;
+}
+
+.nav-menu:hover {
+  .nav-menu-links {
+    grid-template-rows: 1fr;
+  }
+}
+.nav-menu-links__container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.nav-menu-links__container > a {
+  width: 100%;
+  display: block;
+  background-color: rgb(255, 119, 88, 0.8);
+  text-align: right;
+  color: #4d4dff;
+  padding: 0.4rem 0.8rem;
+}
+
+.nav-menu-links__container > a:hover {
+  background-color: rgb(255, 119, 88);
+  color: #e6e6ff;
+}
+
+.burger {
+  height: 3em;
+  margin: -0.5em;
+}
