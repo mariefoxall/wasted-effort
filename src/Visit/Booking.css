@@ -8,7 +8,8 @@
   border-radius: 8px;
   border: 1px solid #ff7758;
   padding: 0.6em;
-  font-size: 1.8em;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 500;
   font-family: inherit;
   background-color: rgba(204, 204, 255, 1);
@@ -25,4 +26,11 @@
 
 .booking-dialog-content {
   height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .booking-button {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
