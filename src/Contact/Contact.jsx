@@ -3,10 +3,6 @@ import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
-const ENTRETEMPS_SERVICE_ID = "service_ybem1dg";
-const ENTRETEMPS_TEMPLATE_ID = "template_exdkb2f";
-const ENTRETEMPS_PUBLIC_KEY = "sbbOn8kYwfgqyGI1y";
-
 export default function Contact() {
   const [disabled, setDisabled] = useState(false);
   const [alertInfo, setAlertInfo] = useState({
@@ -33,7 +29,6 @@ export default function Contact() {
 
     try {
       setDisabled(true);
-      console.warn("disabled", disabled);
       const templateParams = {
         name,
         email,
@@ -42,11 +37,23 @@ export default function Contact() {
         extra,
         file,
       };
+      console.warn(
+        "service",
+        import.meta.env.VITE_REACT_APP_ENTRETEMPS_SERVICE_ID
+      );
+      console.warn(
+        "template",
+        import.meta.env.VITE_REACT_APP_ENTRETEMPS_TEMPLATE_ID
+      );
+      console.warn(
+        "publik",
+        import.meta.env.VITE_REACT_APP_ENTRETEMPS_PUBLIC_KEY
+      );
       await emailjs.send(
-        ENTRETEMPS_SERVICE_ID,
-        ENTRETEMPS_TEMPLATE_ID,
+        import.meta.env.VITE_REACT_APP_ENTRETEMPS_SERVICE_ID,
+        import.meta.env.VITE_REACT_APP_ENTRETEMPS_TEMPLATE_ID,
         templateParams,
-        ENTRETEMPS_PUBLIC_KEY
+        import.meta.env.VITE_REACT_APP_ENTRETEMPS_PUBLIC_KEY
       );
       toggleAlert("Form submission was successful!");
     } catch (e) {
