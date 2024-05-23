@@ -2,7 +2,7 @@ import entretempsLogo from "./assets/entretemps-logo.png";
 import "./App.css";
 import Menu from "./Menu/Menu";
 import Exhibitions from "./Exhibitions/Exhibitions";
-import Contact from "./Contact/Contact";
+import Contact from "./Contact";
 import Visit from "./Visit/Visit";
 import Shop from "./Shop/Shop";
 import Home from "./Home/Home";
