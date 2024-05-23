@@ -17,7 +17,7 @@ select {
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 8px;
-  width: 300px;
+  width: 380px;
   border: 2px solid black;
 }
 
@@ -50,7 +50,7 @@ textarea {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.25s;
-  font-size: 1em;
+  font-size: 1rem;
   margin-right: 20px;
 }
 
@@ -78,4 +78,15 @@ textarea {
   margin-top: 20px;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  input,
+  select {
+    width: 100%;
+  }
+}
+
+.email-address {
+  margin-top: 8px;
 }

@@ -6,7 +6,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(0, 0, 0, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -16,7 +16,7 @@
 }
 
 a {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 500;
   text-decoration: inherit;
 }
@@ -50,23 +50,23 @@ body {
 }
 
 h1 {
-  margin: 0.6em 0;
-  font-size: 8em;
+  margin-bottom: 0.3rem;
+  font-size: 16rem;
   line-height: 1.1;
   text-wrap: wrap;
   overflow-wrap: break-word;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-wrap: wrap;
   overflow-wrap: break-word;
@@ -77,9 +77,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p,
+  a {
+    font-size: 1rem;
   }
 }

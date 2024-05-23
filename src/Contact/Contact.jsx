@@ -70,7 +70,12 @@ export default function Contact() {
       <h2>Say bonjour/hi</h2>
       <div className="contact-section"></div>{" "}
       <h3>Do you have a burning question?</h3>
-      <p>Give us a shout at bonjour.hi@entretemps.ca</p>
+      <p className="email-address">
+        Give us a shout at{" "}
+        <a className="email-link" href="mailto:bonjour.hi@entretemps.ca">
+          bonjour.hi@entretemps.ca
+        </a>
+      </p>
       <h3 className="form-header">
         Want to submit your work for consideration?
       </h3>
