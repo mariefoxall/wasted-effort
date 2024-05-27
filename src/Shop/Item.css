@@ -1,0 +1,46 @@
+.bid-error {
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: black;
+  color: red;
+  padding: 8px;
+  width: fit-content;
+}
+
+#bid-form > input {
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+}
+
+.bid-input {
+  width: 100px;
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+}
+
+.auction-item-section {
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.auction-item-section > img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  #bid-form > input,
+  .bid-submit-button {
+    font-size: 1rem;
+    line-height: 0.8rem;
+  }
+  .bid-input {
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+}

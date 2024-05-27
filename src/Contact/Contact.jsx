@@ -40,7 +40,7 @@ export default function Contact() {
 
       await emailjs.send(
         import.meta.env.VITE_REACT_APP_ENTRETEMPS_SERVICE_ID,
-        import.meta.env.VITE_REACT_APP_ENTRETEMPS_TEMPLATE_ID,
+        import.meta.env.VITE_REACT_APP_ENTRETEMPS_CONTACT_TEMPLATE_ID,
         templateParams,
         import.meta.env.VITE_REACT_APP_ENTRETEMPS_PUBLIC_KEY
       );

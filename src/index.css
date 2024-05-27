@@ -28,6 +28,10 @@ button {
   line-height: 2em;
 }
 
+label {
+  margin-top: 20px;
+}
+
 *,
 *:before,
 *:after {

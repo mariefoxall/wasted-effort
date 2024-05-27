@@ -1,0 +1,40 @@
+.bid-submit-button {
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+  padding: 16px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ccccff;
+  border: 2px solid #7171f1;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  margin-right: 20px;
+}
+
+.bid-submit-button:disabled {
+  background-color: #ccccff;
+  color: #7171f1;
+  border: 2px solid #ccccff;
+  cursor: not-allowed;
+}
+
+.bid-submit-button:disabled:hover {
+  background-color: #ccccff;
+  color: #7171f1;
+  border: 2px solid #ccccff;
+  cursor: not-allowed;
+}
+
+.bid-submit-button:hover {
+  background-color: #7171f1;
+  color: white;
+  border: 2px solid #ccccff;
+}
+
+.bid-summary {
+  width: fit-content;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: #ccccff;
+}
