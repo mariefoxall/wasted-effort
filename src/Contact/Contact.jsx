@@ -37,18 +37,7 @@ export default function Contact() {
         extra,
         file,
       };
-      console.warn(
-        "service",
-        import.meta.env.VITE_REACT_APP_ENTRETEMPS_SERVICE_ID
-      );
-      console.warn(
-        "template",
-        import.meta.env.VITE_REACT_APP_ENTRETEMPS_TEMPLATE_ID
-      );
-      console.warn(
-        "publik",
-        import.meta.env.VITE_REACT_APP_ENTRETEMPS_PUBLIC_KEY
-      );
+
       await emailjs.send(
         import.meta.env.VITE_REACT_APP_ENTRETEMPS_SERVICE_ID,
         import.meta.env.VITE_REACT_APP_ENTRETEMPS_TEMPLATE_ID,
