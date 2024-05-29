@@ -28,6 +28,12 @@ button {
   line-height: 2em;
 }
 
+input,
+select,
+textarea {
+  background-color: rgb(254, 196, 182);
+}
+
 label {
   margin-top: 20px;
 }
