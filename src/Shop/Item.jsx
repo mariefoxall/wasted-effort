@@ -3,8 +3,16 @@ import "./Item.css";
 import { useState } from "react";
 
 export default function Item({ item, handleChange }) {
-  const { currentBid, incrementValue, itemId, itemName, imgSrc, altText } =
-    item;
+  const {
+    currentBid,
+    incrementValue,
+    itemId,
+    itemName,
+    description,
+    artist,
+    imgSrc,
+    altText,
+  } = item;
   const [error, setError] = useState(false);
 
   const checkBid = (event) => {
@@ -25,6 +33,8 @@ export default function Item({ item, handleChange }) {
   return (
     <div className="auction-item-section">
       <h3>{itemName}</h3>
+      <p>{description}</p>
+      <p>{artist}</p>
       <img src={imgSrc} alt={altText} />
       <p>Current bid: ${currentBid}</p>
       <p>
