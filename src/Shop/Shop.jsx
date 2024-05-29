@@ -140,19 +140,21 @@ function Shop() {
           placeholder="Phone number"
           required
         ></input>
-        <div className="bid-summary">
-          {!isEmpty(bids) && <h3>Your bids: </h3>}
-          {Object.entries(bids).map((bidArray) => {
-            const matchingItem = allAuctionitems.find(
-              (item) => item.itemId === bidArray[0]
-            );
-            return (
-              <p key={bidArray[0]}>
-                {matchingItem?.itemName}: ${bidArray[1]}
-              </p>
-            );
-          })}
-        </div>
+        {!isEmpty(bids) && (
+          <div className="bid-summary">
+            <h3>Your bids: </h3>
+            {Object.entries(bids).map((bidArray) => {
+              const matchingItem = allAuctionitems.find(
+                (item) => item.itemId === bidArray[0]
+              );
+              return (
+                <p key={bidArray[0]}>
+                  {matchingItem?.itemName}: ${bidArray[1]}
+                </p>
+              );
+            })}
+          </div>
+        )}
         <div className="submit-button-and-message">
           <button
             disabled={disabled}
