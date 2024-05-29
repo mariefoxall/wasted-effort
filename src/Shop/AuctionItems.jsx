@@ -6,7 +6,7 @@ import standingLampImg from "../assets/standing-lamp.jpeg";
 
 const blankie = "Etty Anderson";
 const murph = "Marie Foxall";
-const both = "Etty Anderson / Marie Foxall";
+const buddies = "Etty Anderson / Marie Foxall";
 
 const receptionLamp = {
   currentBid: 380,
@@ -14,7 +14,7 @@ const receptionLamp = {
   itemId: "reception-lamp",
   itemName: "Reception Lamp",
   description: "Thrown porcelain, stain, lucite",
-  artist: both,
+  artist: buddies,
   imgSrc: receptionLampImg,
   altText:
     "Thrown porcelain lamp with stacked bubble base, ceramic and lucite shade",

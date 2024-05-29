@@ -1,8 +1,9 @@
 .bid-error {
+  margin-top: 8px;
   font-size: 1rem;
   border-radius: 8px;
   background-color: black;
-  color: red;
+  color: rgb(254, 196, 182);
   padding: 8px;
   width: fit-content;
 }
