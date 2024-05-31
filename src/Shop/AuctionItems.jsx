@@ -23,13 +23,17 @@ import tvGuideImg from "../assets/tv-guide.jpg";
 import glassCandy from "../assets/glass-candy.jpg";
 import chipBagImg from "../assets/origional.jpg";
 import chipImg from "../assets/single-chip.jpg";
-import goldChipImg from "../assets/gold-chip.jpeg";
+import goldChipImg from "../assets/gold-chip.jpg";
 import porcelainCigImg from "../assets/porcelain-cig.jpg";
 import beadCigAImg from "../assets/beaded-cig-A.jpg";
 import beadCigBImg from "../assets/beaded-cig-B.jpg";
 import beadCigCImg from "../assets/beaded-cig-C.jpg";
 import beadCigDImg from "../assets/beaded-cig-D.jpg";
 import beadCigEImg from "../assets/beaded-cig-E.jpg";
+import beadCigFImg from "../assets/beaded-cig-F.jpg";
+import glassCigAImg from "../assets/glass-cig-A.jpg";
+import glassCigBImg from "../assets/glass-cig-B.jpg";
+import gayCavalierImg from "../assets/gay-cavalier.jpg";
 
 const blankie = "Etty Anderson";
 const murph = "Marie Foxall";
@@ -265,7 +269,7 @@ const porcelainCig = {
 const beadedCigA = {
   currentBid: 50,
   incrementValue: 5,
-  itemId: "beaded-cig",
+  itemId: "beaded-cig-a",
   itemName: "Beaded Ciggy A",
   description: "lucite, glass beads",
   artist: murph,
@@ -275,7 +279,7 @@ const beadedCigA = {
 const beadedCigB = {
   currentBid: 60,
   incrementValue: 5,
-  itemId: "beaded-cig",
+  itemId: "beaded-cig-b",
   itemName: "Beaded Ciggy B",
   description: "lucite, glass beads",
   artist: murph,
@@ -285,7 +289,7 @@ const beadedCigB = {
 const beadedCigC = {
   currentBid: 50,
   incrementValue: 5,
-  itemId: "beaded-cig",
+  itemId: "beaded-cig-c",
   itemName: "Beaded Ciggy C",
   description: "lucite, glass beads",
   artist: murph,
@@ -295,7 +299,7 @@ const beadedCigC = {
 const beadedCigD = {
   currentBid: 50,
   incrementValue: 5,
-  itemId: "beaded-cig",
+  itemId: "beaded-cig-d",
   itemName: "Beaded Ciggy D",
   description: "lucite, glass beads",
   artist: murph,
@@ -305,7 +309,7 @@ const beadedCigD = {
 const beadedCigE = {
   currentBid: 50,
   incrementValue: 5,
-  itemId: "beaded-cig",
+  itemId: "beaded-cig-e",
   itemName: "Beaded Ciggy E",
   description: "lucite, glass beads",
   artist: murph,
@@ -313,27 +317,38 @@ const beadedCigE = {
   altText: "Cigarette made of glass beads",
 };
 
-// const glassCigA = {
-//   currentBid: 50,
-//   incrementValue: 5,
-//   itemId: 'glass-cig-a-marie',
-//   itemName: 'Glass Ciggy A',
-//   description: 'Coloured glass',
-//   artist: murph,
-//   imgSrc:,
-//   altText: "Glass cigarette sculpture"
-// }
+const beadedCigF = {
+  currentBid: 50,
+  incrementValue: 5,
+  itemId: "beaded-cig-f",
+  itemName: "Beaded Ciggy F",
+  description: "lucite, glass beads",
+  artist: murph,
+  imgSrc: beadCigFImg,
+  altText: "Cigarette made of glass beads",
+};
 
-// const glassCigB = {
-//   currentBid: 60,
-//   incrementValue: 5,
-//   itemId: 'glass-cig-b-etty',
-//   itemName: 'Glass Ciggy B',
-//   description: 'Coloured glass',
-//   artist: blankie,
-//   imgSrc:,
-//   altText: "Glass cigarette sculpture"
-// }
+const glassCigA = {
+  currentBid: 50,
+  incrementValue: 5,
+  itemId: "glass-cig-a-marie",
+  itemName: "Glass Ciggy A",
+  description: "Coloured glass",
+  artist: murph,
+  imgSrc: glassCigAImg,
+  altText: "Glass cigarette sculpture",
+};
+
+const glassCigB = {
+  currentBid: 60,
+  incrementValue: 5,
+  itemId: "glass-cig-b-etty",
+  itemName: "Glass Ciggy B",
+  description: "Coloured glass",
+  artist: blankie,
+  imgSrc: glassCigBImg,
+  altText: "Glass cigarette sculpture",
+};
 
 const ashTray = {
   currentBid: 150,
@@ -369,17 +384,16 @@ const natGeo = {
     "Ceramic recreation of National Geographic magazine with astronaut on the cover",
 };
 
-// const gayCavalier = {
-//   currentBid: 200,
-//   incrementValue: 10,
-//   itemId: "gay-cav",
-//   itemName: "Gay Cavalier",
-//   description: 'Ceramic, glaze, gold lustre',
-//   artist: blankie,
-//   imgSrc: gayCavalierImg,
-//   altText:
-//     "Ceramic recreation of Gay Cavalier romance novel",
-// };
+const gayCavalier = {
+  currentBid: 200,
+  incrementValue: 10,
+  itemId: "gay-cav",
+  itemName: "Gay Cavalier",
+  description: "Ceramic, glaze, gold lustre",
+  artist: blankie,
+  imgSrc: gayCavalierImg,
+  altText: "Ceramic recreation of Gay Cavalier romance novel",
+};
 
 // const apple = {
 //   currentBid: 80,
@@ -423,16 +437,18 @@ const bagOfChips = {
   imgSrc: chipBagImg,
   altText: "Ceramic potato chip bag with spilled chips",
 };
-// const goldChip = {
-//   currentBid: 40,
-//   incrementValue: 5,
-//   itemId: "gold-chip",
-//   itemName: "Golden Chip",
-//   description: "Soda-fired porcelain, gold lustre",
-//   artist: blankie,
-//   imgSrc: goldChipImg,
-//   altText: "Ceramic half-peeled banana",
-// };
+
+const goldChip = {
+  currentBid: 40,
+  incrementValue: 5,
+  itemId: "gold-chip",
+  itemName: "Golden Chip",
+  description: "Soda-fired porcelain, gold lustre",
+  artist: blankie,
+  imgSrc: goldChipImg,
+  altText: "Ceramic half-peeled banana",
+};
+
 const candy = {
   currentBid: 60,
   incrementValue: 5,
@@ -465,21 +481,22 @@ export const allAuctionitems = [
   pillow,
   painting,
   porcelainCig,
-  // glassCigA,
-  // glassCigB,
+  glassCigA,
+  glassCigB,
   ashTray,
   beadedCigA,
   beadedCigB,
   beadedCigC,
   beadedCigD,
   beadedCigE,
+  beadedCigF,
   tvGuide,
   natGeo,
-  // gayCavalier,
+  gayCavalier,
   // apple,
   // banana,
   candy,
   // chip,
   bagOfChips,
-  // goldChip,
+  goldChip,
 ];
