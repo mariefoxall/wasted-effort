@@ -24,6 +24,12 @@ import glassCandy from "../assets/glass-candy.jpg";
 import chipBagImg from "../assets/origional.jpg";
 import chipImg from "../assets/single-chip.jpg";
 import goldChipImg from "../assets/gold-chip.jpeg";
+import porcelainCigImg from "../assets/porcelain-cig.jpg";
+import beadCigAImg from "../assets/beaded-cig-A.jpg";
+import beadCigBImg from "../assets/beaded-cig-B.jpg";
+import beadCigCImg from "../assets/beaded-cig-C.jpg";
+import beadCigDImg from "../assets/beaded-cig-D.jpg";
+import beadCigEImg from "../assets/beaded-cig-E.jpg";
 
 const blankie = "Etty Anderson";
 const murph = "Marie Foxall";
@@ -245,27 +251,67 @@ const painting = {
   altText: "Brightly coloured painting of a vase of flowers",
 };
 
-// const porcelainCig = {
-//   currentBid: 120,
-//   incrementValue: 5,
-//   itemId: 'porcelain-cig',
-//   itemName: 'Porcelain Giant Ciggy',
-//   description: 'Coloured porcelain',
-//   artist: blankie,
-//   imgSrc:,
-//   altText: "Oversized porcelain cigarette sculpture"
-// }
+const porcelainCig = {
+  currentBid: 120,
+  incrementValue: 5,
+  itemId: "porcelain-cig",
+  itemName: "Porcelain Giant Ciggy",
+  description: "Coloured porcelain",
+  artist: blankie,
+  imgSrc: porcelainCigImg,
+  altText: "Oversized porcelain cigarette sculpture",
+};
 
-// const beadedCig = {
-//   currentBid: 60,
-//   incrementValue: 5,
-//   itemId: 'beaded-cig',
-//   itemName: 'Beaded Ciggy',
-//   description: 'lucite, glass beads',
-//   artist: murph,
-//   imgSrc:,
-//   altText: "Oversized porcelain cigarette sculpture"
-// }
+const beadedCigA = {
+  currentBid: 50,
+  incrementValue: 5,
+  itemId: "beaded-cig",
+  itemName: "Beaded Ciggy A",
+  description: "lucite, glass beads",
+  artist: murph,
+  imgSrc: beadCigAImg,
+  altText: "Cigarette made of glass beads",
+};
+const beadedCigB = {
+  currentBid: 60,
+  incrementValue: 5,
+  itemId: "beaded-cig",
+  itemName: "Beaded Ciggy B",
+  description: "lucite, glass beads",
+  artist: murph,
+  imgSrc: beadCigBImg,
+  altText: "Cigarette made of glass beads",
+};
+const beadedCigC = {
+  currentBid: 50,
+  incrementValue: 5,
+  itemId: "beaded-cig",
+  itemName: "Beaded Ciggy C",
+  description: "lucite, glass beads",
+  artist: murph,
+  imgSrc: beadCigCImg,
+  altText: "Cigarette made of glass beads",
+};
+const beadedCigD = {
+  currentBid: 50,
+  incrementValue: 5,
+  itemId: "beaded-cig",
+  itemName: "Beaded Ciggy D",
+  description: "lucite, glass beads",
+  artist: murph,
+  imgSrc: beadCigDImg,
+  altText: "Cigarette made of glass beads",
+};
+const beadedCigE = {
+  currentBid: 50,
+  incrementValue: 5,
+  itemId: "beaded-cig",
+  itemName: "Beaded Ciggy E",
+  description: "lucite, glass beads",
+  artist: murph,
+  imgSrc: beadCigEImg,
+  altText: "Cigarette made of glass beads",
+};
 
 // const glassCigA = {
 //   currentBid: 50,
@@ -418,11 +464,15 @@ export const allAuctionitems = [
   keys,
   pillow,
   painting,
-  // porcelainCig,
-  // beadedCig,
+  porcelainCig,
   // glassCigA,
   // glassCigB,
   ashTray,
+  beadedCigA,
+  beadedCigB,
+  beadedCigC,
+  beadedCigD,
+  beadedCigE,
   tvGuide,
   natGeo,
   // gayCavalier,
