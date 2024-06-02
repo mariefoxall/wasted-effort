@@ -329,7 +329,7 @@ const beadedCigF = {
 };
 
 const glassCigA = {
-  currentBid: 50,
+  currentBid: 75,
   incrementValue: 5,
   itemId: "glass-cig-a-marie",
   itemName: "Glass Ciggy A",
@@ -373,7 +373,7 @@ const tvGuide = {
 };
 
 const natGeo = {
-  currentBid: 250,
+  currentBid: 275,
   incrementValue: 10,
   itemId: "nat-geo",
   itemName: "National Geographic",
@@ -439,7 +439,7 @@ const bagOfChips = {
 };
 
 const goldChip = {
-  currentBid: 40,
+  currentBid: 46,
   incrementValue: 5,
   itemId: "gold-chip",
   itemName: "Golden Chip",
@@ -450,7 +450,7 @@ const goldChip = {
 };
 
 const candy = {
-  currentBid: 60,
+  currentBid: 70,
   incrementValue: 5,
   itemId: "candy",
   itemName: "Ooh, piece of candy",
