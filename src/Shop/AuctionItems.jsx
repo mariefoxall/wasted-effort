@@ -210,10 +210,10 @@ const obelisk = {
   altText: "Squiggly lucite sculpture",
 };
 
-const phone = {
+const officePhone = {
   currentBid: 180,
   incrementValue: 5,
-  itemId: "phone",
+  itemId: "office-phone",
   itemName: "The Receptionist's Phone",
   description: "Ceramic, acetate, paper mache",
   artist: buddies,
@@ -476,7 +476,7 @@ export const allAuctionitems = [
   chess,
   chainmail,
   obelisk,
-  phone,
+  officePhone,
   keys,
   pillow,
   painting,
