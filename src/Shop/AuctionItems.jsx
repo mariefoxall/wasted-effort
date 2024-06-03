@@ -34,6 +34,9 @@ import beadCigFImg from "../assets/beaded-cig-F.jpg";
 import glassCigAImg from "../assets/glass-cig-A.jpg";
 import glassCigBImg from "../assets/glass-cig-B.jpg";
 import gayCavalierImg from "../assets/gay-cavalier.jpg";
+import appleImg from "../assets/apple.jpg";
+import bananaImg from "../assets/banane.jpg";
+import dixieCrunchImg from "../assets/dixie-crunch.jpg";
 
 const blankie = "Etty Anderson";
 const murph = "Marie Foxall";
@@ -178,7 +181,7 @@ const vesselA = {
 };
 
 const chess = {
-  currentBid: 340,
+  currentBid: 400,
   incrementValue: 10,
   itemId: "chess",
   itemName: "Chess",
@@ -395,28 +398,26 @@ const gayCavalier = {
   altText: "Ceramic recreation of Gay Cavalier romance novel",
 };
 
-// const apple = {
-//   currentBid: 80,
-//   incrementValue: 5,
-//   itemId: "apple",
-//   itemName: "Apple Core",
-//   description: 'Coloured porcelain',
-//   artist: blankie,
-//   imgSrc: appleImg,
-//   altText:
-//     "Ceramic apple core",
-// };
-// const banana = {
-//   currentBid: 210,
-//   incrementValue: 10,
-//   itemId: "banana",
-//   itemName: "Banane",
-//   description: 'Nerikomi porcelain',
-//   artist: blankie,
-//   imgSrc: bananaImg,
-//   altText:
-//     "Ceramic half-peeled banana",
-// };
+const apple = {
+  currentBid: 80,
+  incrementValue: 5,
+  itemId: "apple",
+  itemName: "Apple Core",
+  description: "Coloured porcelain",
+  artist: blankie,
+  imgSrc: appleImg,
+  altText: "Ceramic apple core",
+};
+const banana = {
+  currentBid: 210,
+  incrementValue: 10,
+  itemId: "banana",
+  itemName: "Banane",
+  description: "Nerikomi porcelain",
+  artist: blankie,
+  imgSrc: bananaImg,
+  altText: "Ceramic half-peeled banana",
+};
 // const chip = {
 //   currentBid: 20,
 //   incrementValue: 5,
@@ -460,6 +461,29 @@ const candy = {
   altText: "oversized glass peppermint candy wrapped in clear vinyl",
 };
 
+// const dixieCupSet = {
+//   currentBid: 120,
+//   incrementValue: 5,
+//   itemId: "dixie-set",
+//   itemName: "Dixie cup set",
+//   description: "Nerikomi porcelain",
+//   artist: blankie,
+//   imgSrc,
+//   altText:
+//     "oversized ceramic recreation of disposable dixie cups, one large, one small",
+// };
+
+const dixieCupCrunch = {
+  currentBid: 75,
+  incrementValue: 5,
+  itemId: "dixie-crunch",
+  itemName: "Dixie cup - crunched",
+  description: "Nerikomi porcelain",
+  artist: blankie,
+  imgSrc: dixieCrunchImg,
+  altText: "oversized ceramic recreation of disposable dixie cup, scrunched up",
+};
+
 export const allAuctionitems = [
   receptionLamp,
   portalLamp,
@@ -493,10 +517,12 @@ export const allAuctionitems = [
   tvGuide,
   natGeo,
   gayCavalier,
-  // apple,
-  // banana,
+  apple,
+  banana,
   candy,
   // chip,
   bagOfChips,
   goldChip,
+  // dixieCupSet,
+  dixieCupCrunch,
 ];
