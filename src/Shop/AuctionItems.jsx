@@ -318,7 +318,7 @@ const beadedCigE = {
 };
 
 const beadedCigF = {
-  currentBid: 50,
+  currentBid: 60,
   incrementValue: 5,
   itemId: "beaded-cig-f",
   itemName: "Beaded Ciggy F",
