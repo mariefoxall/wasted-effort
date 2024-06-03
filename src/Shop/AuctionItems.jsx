@@ -68,7 +68,7 @@ const portalLamp = {
 };
 
 const chainPile = {
-  currentBid: 410,
+  currentBid: 470,
   incrementValue: 10,
   itemId: "chain-pile-lamp",
   itemName: "Pile of Chain Lamp",
@@ -388,7 +388,7 @@ const natGeo = {
 };
 
 const gayCavalier = {
-  currentBid: 200,
+  currentBid: 250,
   incrementValue: 10,
   itemId: "gay-cav",
   itemName: "Gay Cavalier",
