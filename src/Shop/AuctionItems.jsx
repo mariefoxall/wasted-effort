@@ -37,6 +37,7 @@ import gayCavalierImg from "../assets/gay-cavalier.jpg";
 import appleImg from "../assets/apple.jpg";
 import bananaImg from "../assets/banane.jpg";
 import dixieCrunchImg from "../assets/dixie-crunch.jpg";
+import dixieSetImg from "../assets/dixie-set.jpeg";
 import lanyardImg from "../assets/lanyard.jpg";
 
 const blankie = "Etty Anderson";
@@ -462,17 +463,17 @@ const candy = {
   altText: "oversized glass peppermint candy wrapped in clear vinyl",
 };
 
-// const dixieCupSet = {
-//   currentBid: 120,
-//   incrementValue: 5,
-//   itemId: "dixie-set",
-//   itemName: "Dixie cup set",
-//   description: "Nerikomi porcelain",
-//   artist: blankie,
-//   imgSrc,
-//   altText:
-//     "oversized ceramic recreation of disposable dixie cups, one large, one small",
-// };
+const dixieCupSet = {
+  currentBid: 120,
+  incrementValue: 5,
+  itemId: "dixie-set",
+  itemName: "Dixie cup set",
+  description: "Nerikomi porcelain",
+  artist: blankie,
+  imgSrc: dixieSetImg,
+  altText:
+    "oversized ceramic recreation of disposable dixie cups, one large, one small",
+};
 
 const dixieCupCrunch = {
   currentBid: 75,
@@ -535,7 +536,7 @@ export const allAuctionitems = [
   // chip,
   bagOfChips,
   goldChip,
-  // dixieCupSet,
+  dixieCupSet,
   dixieCupCrunch,
   lanyard,
 ];
