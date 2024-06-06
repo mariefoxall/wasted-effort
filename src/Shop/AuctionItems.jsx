@@ -37,6 +37,7 @@ import gayCavalierImg from "../assets/gay-cavalier.jpg";
 import appleImg from "../assets/apple.jpg";
 import bananaImg from "../assets/banane.jpg";
 import dixieCrunchImg from "../assets/dixie-crunch.jpg";
+import lanyardImg from "../assets/lanyard.jpg";
 
 const blankie = "Etty Anderson";
 const murph = "Marie Foxall";
@@ -484,6 +485,17 @@ const dixieCupCrunch = {
   altText: "oversized ceramic recreation of disposable dixie cup, scrunched up",
 };
 
+const lanyard = {
+  currentBid: 450,
+  incrementValue: 10,
+  itemId: "lanyard",
+  itemName: "Beaded lanyard pen",
+  description: "Glass beads, pvc, pen",
+  artist: murph,
+  imgSrc: lanyardImg,
+  altText: "long woven beaded chain lanyard with fully beaded-encrusted pen",
+};
+
 export const allAuctionitems = [
   receptionLamp,
   portalLamp,
@@ -525,4 +537,5 @@ export const allAuctionitems = [
   goldChip,
   // dixieCupSet,
   dixieCupCrunch,
+  lanyard,
 ];
