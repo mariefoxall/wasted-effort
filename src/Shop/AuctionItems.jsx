@@ -218,7 +218,7 @@ const obelisk = {
 const officePhone = {
   currentBid: 180,
   incrementValue: 5,
-  itemId: "office-phone",
+  itemId: "receptionist",
   itemName: "The Receptionist's Phone",
   description: "Ceramic, acetate, paper mache",
   artist: buddies,
