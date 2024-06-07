@@ -183,7 +183,7 @@ const vesselA = {
 };
 
 const chess = {
-  currentBid: 400,
+  currentBid: 420,
   incrementValue: 10,
   itemId: "chess",
   itemName: "Chess",
@@ -250,7 +250,7 @@ const pillow = {
 };
 
 const painting = {
-  currentBid: 150,
+  currentBid: 160,
   incrementValue: 5,
   itemId: "floral-painting",
   itemName: "Waiting Room Floral",
