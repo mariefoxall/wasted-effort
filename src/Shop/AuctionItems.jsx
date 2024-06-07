@@ -194,7 +194,7 @@ const chess = {
 };
 
 const chainmail = {
-  currentBid: 70,
+  currentBid: 80,
   incrementValue: 5,
   itemId: "chainmail",
   itemName: "Chainmail",
@@ -442,7 +442,7 @@ const bagOfChips = {
 };
 
 const goldChip = {
-  currentBid: 46,
+  currentBid: 55,
   incrementValue: 5,
   itemId: "gold-chip",
   itemName: "Golden Chip",
