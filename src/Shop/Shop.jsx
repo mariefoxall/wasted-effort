@@ -98,10 +98,10 @@ function Shop() {
         </a>
       </p>
       <div className="prize-section">
-        <h3 className="prize-info">
+        <p className="prize-info">
           Every bid you place is an entry to win this beaded ciggy & porcelain
           chip duo!
-        </h3>
+        </p>
         <img
           className="prize-image"
           src={ciggyChip}
