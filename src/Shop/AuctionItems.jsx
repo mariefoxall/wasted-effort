@@ -442,7 +442,7 @@ const bagOfChips = {
 };
 
 const goldChip = {
-  currentBid: 60,
+  currentBid: 75,
   incrementValue: 5,
   itemId: "gold-chip",
   itemName: "Golden Chip",
