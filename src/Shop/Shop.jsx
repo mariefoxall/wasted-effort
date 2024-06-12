@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { allAuctionitems } from "./AuctionItems";
+import ciggyChip from "../assets/ciggy-chip.jpg";
 
 function Shop() {
   const [disabled, setDisabled] = useState(false);
@@ -96,6 +97,18 @@ function Shop() {
           bonjour.hi@entretemps.ca
         </a>
       </p>
+      <div className="prize-section">
+        <h3 className="prize-info">
+          Every bid you place is an entry to win this beaded ciggy & porcelain
+          chip duo!
+        </h3>
+        <img
+          className="prize-image"
+          src={ciggyChip}
+          alt="beaded cigarette and porcelain potato chip"
+        />
+      </div>
+      <h2>Items for auction:</h2>
       <form
         id="bid-form"
         onSubmit={handleSubmit(onSubmit)}
@@ -108,6 +121,7 @@ function Shop() {
             <Item key={item.itemId} item={item} handleChange={handleChange} />
           );
         })}
+
         <input
           type="text"
           name="name"
