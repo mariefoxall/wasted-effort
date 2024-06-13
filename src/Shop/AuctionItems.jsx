@@ -194,7 +194,7 @@ const chess = {
 };
 
 const chainmail = {
-  currentBid: 80,
+  currentBid: 90,
   incrementValue: 5,
   itemId: "chainmail",
   itemName: "Chainmail",
