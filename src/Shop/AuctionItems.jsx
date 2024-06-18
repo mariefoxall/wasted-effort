@@ -161,7 +161,7 @@ const coralStool = {
 };
 
 const toGo = {
-  currentBid: 210,
+  currentBid: 220,
   incrementValue: 5,
   itemId: "togo-cup",
   itemName: "To Go",
