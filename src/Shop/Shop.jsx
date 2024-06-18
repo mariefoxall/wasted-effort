@@ -88,6 +88,7 @@ function Shop() {
   return (
     <>
       <h2>Silent Auction</h2>
+      <h3>Bids close at 11:59 pm EST Saturday June 22</h3>
       <p className="form-description" id="form-description">
         To place bids on silent auction items, please fill out your contact
         information and update the bid on any item you would like to win!
