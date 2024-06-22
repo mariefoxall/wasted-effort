@@ -139,7 +139,7 @@ const greenPlinth = {
 };
 
 const blueStool = {
-  currentBid: 400,
+  currentBid: 450,
   incrementValue: 10,
   itemId: "blue-stool",
   itemName: "Blue Stool",
@@ -378,7 +378,7 @@ const tvGuide = {
 };
 
 const natGeo = {
-  currentBid: 275,
+  currentBid: 300,
   incrementValue: 10,
   itemId: "nat-geo",
   itemName: "National Geographic",
