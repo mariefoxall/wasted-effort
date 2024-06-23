@@ -89,10 +89,10 @@ function Shop() {
     <>
       <h2>Silent Auction</h2>
       <h3>Bids are now closed! Thanks everyone! </h3>
-      <h3>
-        Winners will be contacted shortly to arrange payment and pickup/shipping
-      </h3>
-      <p>
+      <p className="closed-info">
+        Winners will be contacted shortly to arrange payment and pickup/shipping{" "}
+      </p>
+      <p className="closed-info">
         If you have any questions, please email us at{" "}
         <a className="email-link" href="mailto:bonjour.hi@entretemps.ca">
           bonjour.hi@entretemps.ca
