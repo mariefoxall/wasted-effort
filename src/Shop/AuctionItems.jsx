@@ -334,7 +334,7 @@ const beadedCigF = {
 };
 
 const glassCigA = {
-  currentBid: 75,
+  currentBid: 85,
   incrementValue: 5,
   itemId: "glass-cig-a-marie",
   itemName: "Glass Ciggy A",
@@ -378,7 +378,7 @@ const tvGuide = {
 };
 
 const natGeo = {
-  currentBid: 310,
+  currentBid: 375,
   incrementValue: 10,
   itemId: "nat-geo",
   itemName: "National Geographic",
