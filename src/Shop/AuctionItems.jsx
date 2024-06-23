@@ -250,7 +250,7 @@ const pillow = {
 };
 
 const painting = {
-  currentBid: 160,
+  currentBid: 200,
   incrementValue: 5,
   itemId: "floral-painting",
   itemName: "Waiting Room Floral",
