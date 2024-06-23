@@ -88,7 +88,11 @@ function Shop() {
   return (
     <>
       <h2>Silent Auction</h2>
-      <h3>Bids close at 11:59 pm EST Saturday June 22</h3>
+      <h3>Bids are now closed! Thanks everyone! </h3>
+      <h3>
+        Winners will be contacted shortly to arrange payment and pickup/shipping
+      </h3>
+      {/* <h3>Bids close at 11:59 pm EST Saturday June 22</h3>
       <p className="form-description" id="form-description">
         To place bids on silent auction items, please fill out your contact
         information and update the bid on any item you would like to win!
@@ -187,7 +191,7 @@ function Shop() {
             </div>
           )}
         </div>
-      </form>
+      </form> */}
     </>
   );
 }
