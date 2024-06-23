@@ -378,7 +378,7 @@ const tvGuide = {
 };
 
 const natGeo = {
-  currentBid: 300,
+  currentBid: 310,
   incrementValue: 10,
   itemId: "nat-geo",
   itemName: "National Geographic",
