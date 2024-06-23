@@ -92,6 +92,12 @@ function Shop() {
       <h3>
         Winners will be contacted shortly to arrange payment and pickup/shipping
       </h3>
+      <p>
+        If you have any questions, please email us at{" "}
+        <a className="email-link" href="mailto:bonjour.hi@entretemps.ca">
+          bonjour.hi@entretemps.ca
+        </a>
+      </p>
       {/* <h3>Bids close at 11:59 pm EST Saturday June 22</h3>
       <p className="form-description" id="form-description">
         To place bids on silent auction items, please fill out your contact
