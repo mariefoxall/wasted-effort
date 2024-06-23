@@ -45,7 +45,7 @@ const murph = "Marie Foxall";
 const buddies = "Etty Anderson / Marie Foxall";
 
 const receptionLamp = {
-  currentBid: 380,
+  currentBid: 400,
   incrementValue: 10,
   itemId: "reception-lamp",
   itemName: "Reception Lamp",
