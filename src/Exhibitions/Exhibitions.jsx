@@ -12,7 +12,7 @@ import "./Exhibitions.css";
 function Exhibitions() {
   return (
     <>
-      <h2>Current Exhibition:</h2>
+      <h2>Previous Exhibitions:</h2>
       <h3>Purgatory is a Waiting Room</h3>
       <p>by Etty Anderson & Marie Foxall</p>
 
