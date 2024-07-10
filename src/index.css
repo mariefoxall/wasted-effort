@@ -57,6 +57,7 @@ body {
     rgba(204, 204, 255, 1) 0%,
     rgba(255, 48, 0, 0.7) 100%
   );
+  background-attachment: fixed;
   text-wrap: wrap;
 }
 

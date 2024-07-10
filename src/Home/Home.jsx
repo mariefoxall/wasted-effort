@@ -1,8 +1,10 @@
+import "./Home.css";
+
 function Home() {
   return (
     <>
       <h1>entretemps</h1>
-      <p>studio / gallery</p>
+      <p className="studio-gallery">studio / gallery</p>
     </>
   );
 }
