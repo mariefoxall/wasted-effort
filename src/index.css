@@ -64,8 +64,8 @@ body {
 
 h1 {
   margin-bottom: 0.3rem;
-  font-size: 30vw;
-  line-height: 0.7;
+  font-size: clamp(2rem, 30vw, 30rem);
+  line-height: 0.7em;
   text-align: center;
   text-wrap: wrap;
   overflow-wrap: break-word;
