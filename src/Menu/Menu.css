@@ -6,8 +6,8 @@
 
 .nav-menu-links {
   position: absolute;
-  top: 90%;
-  right: 6px;
+  top: 0;
+  right: 0;
   display: grid;
   grid-template-columns: max-content;
   grid-template-rows: 0fr;
@@ -17,6 +17,7 @@
 .nav-menu:hover {
   .nav-menu-links {
     grid-template-rows: 1fr;
+    z-index: 10;
   }
 }
 .nav-menu-links__container {
@@ -29,7 +30,7 @@
 .nav-menu-links__container > a {
   width: 100%;
   display: block;
-  background-color: rgb(255, 119, 88, 0.8);
+  background-color: rgba(248, 155, 134);
   text-align: right;
   color: #4d4dff;
   padding: 0.4rem 0.8rem;
@@ -42,5 +43,22 @@
 
 .burger {
   height: 3em;
-  margin: -0.5em;
+  margin-bottom: -2px;
+}
+
+.burger-border {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 4px 6px 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .burger {
+    height: 2em;
+    margin-bottom: -4px;
+  }
+
+  .burger-border {
+    padding: 2px 4px 0;
+  }
 }

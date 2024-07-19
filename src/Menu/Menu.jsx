@@ -4,7 +4,9 @@ import burger from "../assets/burger.svg";
 function Menu() {
   return (
     <div className="nav-menu">
-      <img src={burger} className="burger" alt="Hamburger menu icon" />
+      <div className="burger-border">
+        <img src={burger} className="burger" alt="Hamburger menu icon" />
+      </div>
       <nav className="nav-menu-links">
         <div className="nav-menu-links__container">
           <a href="/exhibitions">exhibitions</a>

@@ -1,7 +1,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
+  height: 100vh;
 }
 
 header {
@@ -9,10 +10,11 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .logo {
-  height: 4em;
+  height: 3em;
   padding-top: 4px;
   will-change: filter;
   transition: filter 300ms;
