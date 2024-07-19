@@ -3,7 +3,7 @@ import "./Visit.css";
 
 function Visit() {
   return (
-    <>
+    <div className="visit-page">
       <h2>Check us out IRL</h2>
       <div className="visit-section">
         <h3>You can find us at:</h3>
@@ -16,7 +16,7 @@ function Visit() {
         <p>- by appointment</p>
       </div>
       <Booking />
-    </>
+    </div>
   );
 }
 

@@ -11,7 +11,7 @@ import "./Exhibitions.css";
 
 function Exhibitions() {
   return (
-    <>
+    <div className="exhibitions-page">
       <h2>Previous Exhibitions:</h2>
       <h3>Purgatory is a Waiting Room</h3>
       <p>by Etty Anderson & Marie Foxall</p>
@@ -46,7 +46,7 @@ function Exhibitions() {
         src={chair}
         alt="Comically tall lime green & clear lucite chair with speckled ceramic bag and giant ceramic cigarette butt"
       />
-    </>
+    </div>
   );
 }
 

@@ -55,7 +55,7 @@ export default function Contact() {
   };
 
   return (
-    <>
+    <div className="contact-page">
       <h2>Say bonjour/hi</h2>
       <div className="contact-section"></div>{" "}
       <h3>Do you have a burning question?</h3>
@@ -158,6 +158,6 @@ export default function Contact() {
           )}
         </div>
       </form>
-    </>
+    </div>
   );
 }

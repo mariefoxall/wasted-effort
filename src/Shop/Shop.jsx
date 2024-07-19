@@ -86,7 +86,7 @@ function Shop() {
   }
 
   return (
-    <>
+    <div className="shop-page">
       <h2>Silent Auction</h2>
       <h3>Bids are now closed! Thanks everyone! </h3>
       <p className="closed-info">
@@ -198,7 +198,7 @@ function Shop() {
           )}
         </div>
       </form> */}
-    </>
+    </div>
   );
 }
 
