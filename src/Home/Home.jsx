@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./Home.css";
+import { makeTextWavy } from "../animations";
 
 function mouseMove() {
   window.addEventListener("mousemove", handleMouseMove);
@@ -11,7 +12,6 @@ function mouseMove() {
   let width = window.innerWidth;
 
   function handleMouseMove(e) {
-    console.warn("mousemove");
     let normalizedPosition = e.pageX / (width / 2) - 1;
     let speedSlow = 100 * normalizedPosition;
     let speedFast = 200 * normalizedPosition;
@@ -54,22 +54,20 @@ function canvasStuff(canvas) {
 
 function Home() {
   mouseMove();
-  const canvas = useRef(null);
+  // const canvas = useRef(null);
+  const animated = useRef(null);
 
   useEffect(() => {
-    if (canvas && canvas.current) {
-      console.log(canvas.current);
-      canvasStuff(canvas.current);
+    if (animated && animated.current) {
+      makeTextWavy("entre\ntemps", animated.current);
     }
   }, []);
 
   return (
     <>
-      {/* <h1>entretemps</h1>
-      <p className="studio-gallery">studio / gallery</p> */}
-      {/* <canvas ref={canvas} id="home-canvas"> */}
-      <div className="wrap">
-        <div>
+      <div className="home-section">
+        <h1 className="home-heading" ref={animated}></h1>
+        {/* <div>
           <div className="line">
             <div className="left">
               <div className="content">
@@ -94,10 +92,9 @@ function Home() {
               </div>
             </div>
           </div>{" "}
-        </div>
+        </div> */}
         <p className="studio-gallery">studio / gallery</p>
       </div>
-      {/* </canvas>{" "} */}
     </>
   );
 }
