@@ -69,6 +69,7 @@ h1 {
   text-align: center;
   text-wrap: wrap;
   overflow-wrap: break-word;
+  color: rgb(250, 194, 181);
 }
 
 h2 {
