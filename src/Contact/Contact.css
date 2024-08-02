@@ -1,90 +1,10 @@
-.submission-form {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  border-radius: 8px;
-  border: 2px solid black;
-  max-width: 800px;
-}
-
-.form-header {
-  margin-top: 30px;
-}
-
-input,
-select {
-  border-radius: 8px;
-  margin-top: 20px;
-  padding: 8px;
-  width: 380px;
-  border: 2px solid black;
-}
-
-select {
-  height: 46px;
-}
-
-.form-description {
-  margin-bottom: 20px;
-}
-
-textarea {
-  border-radius: 8px;
-  margin-bottom: 20px;
-  padding: 8px;
-  max-width: 600px;
-  border: 2px solid black;
-}
-
-#file {
-  margin: 0;
-  padding: 8px 0;
-  border: none;
-}
-
-.submit-button {
-  width: 80px;
-  background-color: #ccccff;
-  border: 2px solid #7171f1;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.25s;
-  font-size: 1rem;
-  margin-right: 20px;
-}
-
-.submit-button:disabled {
-  background-color: #ccccff;
-  color: #7171f1;
-  border: 2px solid #ccccff;
-  cursor: not-allowed;
-}
-
-.submit-button:disabled:hover {
-  background-color: #ccccff;
-  color: #7171f1;
-  border: 2px solid #ccccff;
-  cursor: not-allowed;
-}
-
-.submit-button:hover {
-  background-color: #7171f1;
-  color: white;
-  border: 2px solid #ccccff;
-}
-
-.submit-button-and-message {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-
-@media only screen and (max-width: 480px) {
-  input,
-  select {
-    width: 100%;
-  }
+.contact-section {
+  background-color: rgb(188, 176, 251);
+  border-radius: 10px;
+  padding: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+  margin-bottom: 30px;
+  width: fit-content;
 }
 
 .email-address {

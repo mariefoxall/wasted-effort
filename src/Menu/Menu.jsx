@@ -9,9 +9,9 @@ function Menu() {
       </div>
       <nav className="nav-menu-links">
         <div className="nav-menu-links__container">
-          <a href="/exhibitions">exhibitions</a>
+          <a href="/portfolio">portfolio</a>
           <a href="/contact">contact</a>
-          <a href="/visit">visit</a>
+          <a href="/about">about</a>
           <a href="/shop">shop</a>
         </div>
       </nav>

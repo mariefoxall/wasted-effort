@@ -1,3 +1,44 @@
+@font-face {
+  font-family: "Wrangler"; /* Name your font family */
+  src: url("./assets/WranglerV2.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "FlockDisplay"; /* Name your font family */
+  src: url("./assets/FlockDisplay.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "DeadEast-Italic"; /* Name your font family */
+  src: url("./assets/DeadEast-Italic.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Fender"; /* Name your font family */
+  src: url("./assets/Fender.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Humankind"; /* Name your font family */
+  src: url("./assets/Humankind.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Bananarama"; /* Name your font family */
+  src: url("./assets/Bananarama.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Elysium"; /* Name your font family */
+  src: url("./assets/Elysium.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "DogDays"; /* Name your font family */
+  src: url("./assets/DogDays.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Flowstate-Outline"; /* Name your font family */
+  src: url("./assets/Flowstate-Outline.otf"); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+  font-family: "Flowstate"; /* Name your font family */
+  src: url("./assets/Flowstate.otf"); /* Locate the .ttf file within your directory*/
+}
+
 :root {
   font-family: "Sen", sans-serif;
   font-optical-sizing: auto;
@@ -6,7 +47,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  /* color: rgba(0, 0, 0, 0.87); */
   background-color: #242424;
 
   font-synthesis: none;
@@ -52,18 +92,19 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: rgb(204, 204, 255);
-  background: linear-gradient(
+  background: rgb(250, 192, 169);
+  /* background: linear-gradient(
     180deg,
     rgba(204, 204, 255, 1) 0%,
     rgba(255, 48, 0, 0.7) 100%
   );
-  background-attachment: fixed;
+  background-attachment: fixed; */
   text-wrap: wrap;
 }
 
 h1 {
   margin-bottom: 0.3rem;
+  font-family: "Flowstate";
   font-size: clamp(2rem, 30vw, 30rem);
   line-height: 0.7em;
   text-align: center;
@@ -74,10 +115,12 @@ h1 {
 
 h2 {
   font-size: 3rem;
+  font-family: "Fender";
 }
 
 h3 {
   font-size: 2rem;
+  font-family: "Sen" sans-serif;
 }
 
 p {

@@ -1,0 +1,42 @@
+.gallery-image-vert {
+  width: 50%;
+  padding: 8px;
+  position: relative;
+}
+
+.gallery-image-overlay {
+  position: absolute;
+  width: calc(100% - 16px);
+  height: calc(100% - 24px);
+  top: 8px;
+  left: 8px;
+  background-color: rgb(196, 246, 104);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+  padding: 20px;
+}
+
+.gallery-image {
+  width: 100%;
+  padding: 8px;
+  position: relative;
+}
+
+.portfolio-page {
+  padding: 2rem;
+}
+
+img:hover {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
