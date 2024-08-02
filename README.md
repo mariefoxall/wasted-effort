@@ -1,3 +1,3 @@
-# Entretemps Gallery
+# Wasted Effort
 
-Basic site with appointment reservation, contact info and shop
+Artist portfolio site
