@@ -1,5 +1,6 @@
 import "./Home.css";
 import { gsap } from "gsap";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -37,6 +38,10 @@ function Home() {
       transformOrigin: "50% 50%",
     });
   };
+
+  useEffect(() => {
+    handleMouseEnter();
+  }, []);
 
   return (
     <>
