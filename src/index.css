@@ -46,7 +46,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   background-color: #242424;
 
   font-synthesis: none;
@@ -116,11 +116,13 @@ h1 {
 h2 {
   font-size: 3rem;
   font-family: "Fender";
+  color: black;
 }
 
 h3 {
   font-size: 2rem;
   font-family: "Sen" sans-serif;
+  color: black;
 }
 
 p {
@@ -128,6 +130,7 @@ p {
   line-height: 1.5;
   text-wrap: wrap;
   overflow-wrap: break-word;
+  color: black;
 }
 
 button:focus,
