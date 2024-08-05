@@ -1,6 +1,7 @@
 .nav-menu {
   position: relative;
   cursor: pointer;
+  width: fit-content;
 }
 
 .nav-menu-links {
@@ -49,6 +50,7 @@
   border: 1px solid black;
   border-radius: 8px;
   padding: 4px 6px 0;
+  width: fit-content;
 }
 
 @media only screen and (max-width: 480px) {
