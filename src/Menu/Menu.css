@@ -49,8 +49,8 @@
 .burger-border {
   border: 1px solid black;
   border-radius: 8px;
-  padding: 4px 6px 0;
-  width: fit-content;
+  padding: 3px 0 0;
+  width: 4rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -60,7 +60,8 @@
   }
 
   .burger-border {
-    padding: 2px 4px 0;
+    padding: 4px 0 2px;
+    width: 3rem;
   }
 
   .nav-menu-links__container > a {
