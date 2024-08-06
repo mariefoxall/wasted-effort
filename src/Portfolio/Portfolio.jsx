@@ -3,7 +3,6 @@ import cigarettes from "../assets/cigarettes.jpg";
 import lamp from "../assets/portal-lamp-cropped.jpg";
 import smallPortalLamp from "../assets/purgatory-15.jpg";
 import chair from "../assets/tall-chair.jpg";
-// import lamp from "../assets/entretemps-lamp.jpg";
 import keys from "../assets/keys.jpg";
 // import beadMaze from "../assets/bead-maze-close.jpg";
 import "./Portfolio.css";
