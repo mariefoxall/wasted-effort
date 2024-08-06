@@ -24,6 +24,7 @@ function Portfolio() {
             </div>
 
             <img
+              className="gallery-image-itself"
               src={lamp}
               alt="Multicolored 6-foot tall paper mache lamp and palm tree"
             />
@@ -39,6 +40,7 @@ function Portfolio() {
             </div>
 
             <img
+              className="gallery-image-itself"
               src={keys}
               alt="Carved wood and sculpted papier mache keys on a lucite chain"
             />
@@ -53,6 +55,7 @@ function Portfolio() {
             </div>
 
             <img
+              className="gallery-image-itself"
               src={cigarettes}
               alt="Silver ceramic lustre ashtray full of beaded cigarettes"
             />
@@ -67,6 +70,7 @@ function Portfolio() {
             </div>
 
             <img
+              className="gallery-image-itself"
               src={smallPortalLamp}
               alt="Paper mache orb lamp with recycled plastic shade"
             />
@@ -81,6 +85,7 @@ function Portfolio() {
             </div>
 
             <img
+              className="gallery-image-itself"
               src={chair}
               alt="Comically tall lime green & clear lucite chair with speckled ceramic bag and giant ceramic cigarette butt"
             />

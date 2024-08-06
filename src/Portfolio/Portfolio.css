@@ -25,12 +25,7 @@
   padding: 2rem;
 }
 
-.gallery-image:hover {
-  opacity: 0.4;
-  transition: opacity 0.3s ease;
-}
-
-.gallery-image-vert:hover {
+.gallery-image-itself:hover {
   opacity: 0.4;
   transition: opacity 0.3s ease;
 }
