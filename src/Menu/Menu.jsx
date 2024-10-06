@@ -12,7 +12,7 @@ function Menu() {
           <a href="/portfolio">portfolio</a>
           <a href="/contact">contact</a>
           <a href="/about">about</a>
-          <a href="/shop">shop</a>
+          <a href="http://wastedeffort.myshopify.com">shop</a>
         </div>
       </nav>
     </div>
