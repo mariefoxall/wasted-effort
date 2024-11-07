@@ -4,7 +4,7 @@ import lamp from "../assets/portal-lamp-cropped.jpg";
 import smallPortalLamp from "../assets/purgatory-15.jpg";
 import chair from "../assets/tall-chair.jpg";
 import keys from "../assets/keys.jpg";
-// import beadMaze from "../assets/bead-maze-close.jpg";
+import beadMaze from "../assets/bead-maze-close.jpg";
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -88,6 +88,11 @@ function Portfolio() {
               className="gallery-image-itself"
               src={chair}
               alt="Comically tall lime green & clear lucite chair with speckled ceramic bag and giant ceramic cigarette butt"
+            />
+            <img
+              className="gallery-image-itself"
+              src={beadMaze}
+              alt="Ceramic, wood and lucite 6-foot-tall bead maze"
             />
           </div>
         </div>
