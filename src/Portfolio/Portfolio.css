@@ -27,7 +27,7 @@
 }
 
 .gallery-image-itself:hover {
-  opacity: 0.4;
+  opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 
