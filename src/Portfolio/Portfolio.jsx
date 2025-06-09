@@ -10,6 +10,8 @@ import slurpClose from "../assets/slurp-close.jpg";
 import kongLamp from "../assets/kong-lamp.jpg";
 import allDogs from "../assets/all-dogs.jpg";
 import pen from "../assets/receptionists-pen.jpg";
+import doNotCopy from "../assets/do-not-copy-small.jpg";
+import doNotCopyGif from "../assets/do-not-copy.GIF";
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -19,6 +21,36 @@ function Portfolio() {
       <div className="portfolio-page">
         <h2>Portfolio:</h2>
         <div className="gallery">
+          <div className="gallery-image-vert">
+            <div className="gallery-image-overlay">
+              DO NOT COPY
+              <br />
+              Stoneware, mason stain, glaze & brass keys
+              <br />
+              2025
+            </div>
+
+            <img
+              className="gallery-image-itself"
+              src={doNotCopy}
+              alt="Ceramic nerikomi vase with DO NOT COPY inlaid repeatedly in coloured clay and brass keys dangling all around"
+            />
+          </div>
+          <div className="gallery-image-vert">
+            <div className="gallery-image-overlay">
+              DO NOT COPY
+              <br />
+              Stoneware, mason stain, glaze & brass keys
+              <br />
+              2025
+            </div>
+
+            <img
+              className="gallery-image-itself"
+              src={doNotCopyGif}
+              alt="Ceramic nerikomi vase with DO NOT COPY inlaid repeatedly in coloured clay and brass keys dangling all around"
+            />
+          </div>
           <div className="gallery-image-vert">
             <div className="gallery-image-overlay">
               SLURP
