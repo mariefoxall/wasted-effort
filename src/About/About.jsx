@@ -16,8 +16,8 @@ function About() {
             Marie&apos;s sculptural works in papier mache, wood, recycled
             plastic, lucite and clay are more outsized explorations of structure
             and form.
-          </p>{" "}
-          <p>
+            <br />
+            <br />
             Their collaborative multimedia exhibition, Purgatory is a Waiting
             Room, with ceramicist Etty Anderson, showed in Montreal May/ June
             2024 and their solo show, Reproduction Interdite, showed In Montreal
