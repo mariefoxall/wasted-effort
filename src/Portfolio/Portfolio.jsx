@@ -12,6 +12,7 @@ import allDogs from "../assets/all-dogs.jpg";
 import pen from "../assets/receptionists-pen.jpg";
 import doNotCopy from "../assets/do-not-copy-small.jpg";
 import doNotCopyGif from "../assets/do-not-copy.GIF";
+import reproInterdite from "../assets/reproduction-interdite.jpg";
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -21,8 +22,25 @@ function Portfolio() {
       <div className="portfolio-page">
         <h2>Portfolio:</h2>
         <div className="gallery">
+          <div className="gallery-image">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
+              REPRODUCTION INTERDITE
+              <br />
+              Solo show at Gham & Dafe, Montreal QC
+              <br />
+              2025
+            </div>
+
+            <img
+              className="gallery-image-itself"
+              src={reproInterdite}
+              alt="Ceramic nerikomi vase with DO NOT COPY inlaid repeatedly in coloured clay and brass keys dangling all around"
+            />
+          </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               DO NOT COPY
               <br />
               Stoneware, mason stain, glaze & brass keys
@@ -37,7 +55,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               DO NOT COPY
               <br />
               Stoneware, mason stain, glaze & brass keys
@@ -52,7 +71,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               SLURP
               <br />
               Stoneware, underglaze, glaze, lucite & water
@@ -67,7 +87,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               SLURP
               <br />
               Stoneware, underglaze, glaze, lucite & water
@@ -82,7 +103,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               KONG LAMP
               <br />
               Stoneware, porcelain, pigment & glaze
@@ -97,7 +119,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               ALL DOGS GO TO HEAVEN
               <br />
               Polyester fabric, batting, thread & acrylic beads
@@ -112,7 +135,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               PORTAL LAMP
               <br />
               Papier mache, wire, glass & paint
@@ -127,7 +151,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               {" "}
               KEYS PLEASE
               <br />
@@ -143,7 +168,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               BEADED CIGARETTES
               <br />
               Lucite & glass beads
@@ -158,7 +184,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               ORB PORTAL LAMP
               <br />
               Papier mache, wire & recycled plastic
@@ -174,7 +201,8 @@ function Portfolio() {
           </div>
 
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               HIGH CHAIR
               <br />
               Wood, lucite & paint
@@ -189,7 +217,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               BEAD MAZE - collaboration with Etty Anderson
               <br />
               Wood, lucite & ceramic
@@ -204,7 +233,8 @@ function Portfolio() {
             />
           </div>
           <div className="gallery-image-vert">
-            <div className="gallery-image-overlay">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
               RECEPTIONIST&apos;S PEN
               <br />
               Glass seed beads, PVC tubing & pen
