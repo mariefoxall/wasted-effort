@@ -13,6 +13,7 @@ import pen from "../assets/receptionists-pen.jpg";
 import doNotCopy from "../assets/do-not-copy-small.jpg";
 import doNotCopyGif from "../assets/do-not-copy.GIF";
 import reproInterdite from "../assets/reproduction-interdite.jpg";
+import spinoff from "../assets/spinoff.mov";
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -22,6 +23,27 @@ function Portfolio() {
       <div className="portfolio-page">
         <h2>Portfolio:</h2>
         <div className="gallery">
+          <div className="gallery-image">
+            <div className="gallery-image-overlay"></div>
+            <div className="gallery-image-overlay-text">
+              SPINOFF
+              <br />
+              Wire, papier mache, lucite, nylon thread <br />
+              2025
+            </div>
+            <video
+              className="gallery-image-itself"
+              controls="controls"
+              autoPlay
+              loop
+              muted
+              // width="500"
+              // height="889"
+              name="Spinoff"
+            >
+              <source src={spinoff} />
+            </video>
+          </div>
           <div className="gallery-image">
             <div className="gallery-image-overlay"></div>
             <div className="gallery-image-overlay-text">
